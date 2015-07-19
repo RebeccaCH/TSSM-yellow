@@ -13,8 +13,12 @@ body {
     color: #777;
 }
 
+.white-text {
+    color:white;
+}
+
 .text-primary {
-    color: #fed136;
+    color: #45a4d5;
 }
 
 p {
@@ -35,14 +39,14 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #d3d3d3;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503;
+    color: #3b6c84;
 }
 
 h1,
@@ -77,6 +81,15 @@ h6 {
     background-color: #fed136;
 }
 
+.btn-primary-blue {
+    border-color: #45a4d5;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background-color: #45a4d5;
+}
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
@@ -108,25 +121,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #3b6c84;
+    background-color: #3b6c84;
 }
 
 .btn-primary .badge {
-    color: #fed136;
+    color: #3b6c84;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #fed136;
+    border-color: #3b6c84;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #3b6c84;
 }
 
 .btn-xl:hover,
@@ -160,12 +173,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #3b6c84;
+    background-color: #3b6c84;
 }
 
 .btn-xl .badge {
-    color: #fed136;
+    color: #3b6c84;
     background-color: #fff;
 }
 
@@ -176,7 +189,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fed136;
+    color: #3b6c84;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -191,8 +204,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #3b6c84;
+    background-color: #3b6c84;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -201,7 +214,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fed136;
+    background-color: #45a4d5;
 }
 
 .navbar-default .nav li a {
@@ -215,19 +228,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #45a4d5;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #fed136;
+    background-color: #3b6c84;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #fec503;
+    background-color: #3b6c84;
 }
 
 @media(min-width:768px) {
@@ -298,7 +311,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 175px;
         padding-bottom: 200px;
     }
 
@@ -348,6 +361,46 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+}
+
+#tssm{
+    background:url("../img/BG_blue.png") no-repeat center center fixed;
+}
+
+#tssm.text-primary{
+    background:#45a4d5;
+}
+
+#firstyear {
+    background:url("../img/BG_blue.png") no-repeat center center fixed;
+}
+
+#sozo {
+    background:url("../img/BG_red.jpg") no-repeat center center fixed;
+}
+
+#sozo .fa-circle{
+    color:#d14d52;
+}
+
+#kids {
+    background:url("../img/BG_purple.jpg") no-repeat center center fixed;
+}
+
+#kids .fa-circle{
+    color:#a285bd;
+}
+
+#creative {
+    background:url("../img/BG_green.jpg") no-repeat center center fixed;
+}
+
+#creative .fa-circle{
+    color:#73af83;
+}
+
+#mission {
+    background:url("../img/BG_blue.png") no-repeat center center fixed;
 }
 
 #portfolio .portfolio-item {
@@ -851,7 +904,7 @@ ul.social-buttons li a:active {
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
+/*    background: #45a4d5;*/
 }
 
 img::selection {
